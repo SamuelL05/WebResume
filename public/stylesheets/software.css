@@ -1,0 +1,42 @@
+
+.langWrapInner li {
+    padding: 5px;
+}
+
+.softwareWrapOutter {
+    font-size: 13pt;
+    border: solid 5px #8b8b8b;
+}
+
+.softwareWrapTime {  
+    display: flex;
+    flex-flow: row;
+    justify-content: center;    
+}
+
+.softwareWrapTime section {
+    margin: 30px;
+}
+
+.programsWrapOutter {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.programsWrapOutter section {
+    margin: 20px;
+}
+
+.rightNow {
+    
+    display: flex;
+    justify-content: center;
+    border: solid 5px #8b8b8b;
+    font-size: 12pt;
+    margin-top: 20px;
+    padding: 20px;
+ 
+
+}
+

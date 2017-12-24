@@ -1,0 +1,32 @@
+
+body {
+    background-color: rgb(255, 255, 255);
+    background:repeating-linear-gradient(to bottom ,rgb(201, 201, 201), whrgb(214, 214, 214), darkgray);
+}
+
+.header {
+    display: flex;
+    flex-flow: row;
+    background: #8b8b8b;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#links {
+    font-size: 12pt;
+    line-height: 200%;
+    margin: 15px;
+}
+
+#links a {
+    color: #ffffff;
+    padding: 15px;
+    background: #535353;
+    border-radius:  15%;    
+}
+
+#links a:hover {
+    background: #303030;
+}
+
+

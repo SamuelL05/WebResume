@@ -1,0 +1,15 @@
+
+.empHisWrap {
+    border: solid 5px #8b8b8b;
+    font-size: 13pt;
+}
+
+.empHisWrap section {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.empHisWrap section div {
+    padding: 20px;
+}
