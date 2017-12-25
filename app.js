@@ -5,16 +5,6 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var session = require('express-session');
 var index = require('./routes/index'); 
-require('./models/models')
-var api = require('./routes/api');
-var mongoose = require('mongoose');
-
-mongoose.connect("mongodb://Resume:password12@ds241895.mlab.com:41895/test-db", {
-    useMongoClient: true
-});
-
-// Used for uploading files to DB from localhost
-require('./routes/upload');
 
 var app = express();
 
@@ -29,7 +19,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', index);
-app.use('/api', api);
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
