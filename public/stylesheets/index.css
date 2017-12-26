@@ -1,7 +1,6 @@
 
 body {
-    background-color: rgb(255, 255, 255);
-    background:repeating-linear-gradient(to bottom ,rgb(201, 201, 201), whrgb(214, 214, 214), darkgray);
+    background-color: rgb(250, 250, 250);  
 }
 
 .header {
