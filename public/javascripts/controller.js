@@ -4,10 +4,6 @@ app.config(function($routeProvider){
 	$routeProvider
 
 		.when('/', {
-			templateUrl: 'main.html',
-		})
-
-		.when('/education', {
 			templateUrl: 'education.html',
 		})
 
